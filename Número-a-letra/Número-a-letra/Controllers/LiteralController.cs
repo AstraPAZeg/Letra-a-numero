@@ -18,7 +18,7 @@ namespace Número_a_letra.Controllers
             return (Conversores.NumeroALetras(numero));
         }
         [HttpPost]
-        public string literal_get2([FromHeader] int numero)
+        public string literal_post([FromHeader] int numero)
         {
             return (Conversores.NumeroALetras(numero));
         }

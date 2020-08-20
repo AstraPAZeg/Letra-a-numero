@@ -17,13 +17,13 @@ namespace Número_a_letra.Helpers
             if (decimales > 0)
             {
                 //dec = " PESOS CON " + decimales.ToString() + "/100";
-                dec = $" PESOS {decimales:0,0} /100";
+                dec = $" {decimales:0,0}";
             }
             //Código agregado por mí
             else
             {
                 //dec = " PESOS CON " + decimales.ToString() + "/100";
-                dec = $" PESOS {decimales:0,0} /100";
+                dec = $" {decimales:0,0}";
             }
             var res = NumeroALetras(Convert.ToDouble(entero)) + dec;
             return res;
